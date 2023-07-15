@@ -67,7 +67,7 @@ const userPhoto = useSelector(selectUserPhoto);
       ) : (
         <>
       <NavMenu>
-      <a href="/home">
+            <a onClick={() => Navigate("/home")}>
               <img src="/images/home-icon.svg" alt="HOME" />
               <span>HOME</span>
             </a>

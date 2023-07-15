@@ -12,8 +12,7 @@ function App() {
         <Header />
         <Routes>
           <Route
-            exact
-            path="/"
+            exact path="/"
             element={
               <>
                 <Login />
